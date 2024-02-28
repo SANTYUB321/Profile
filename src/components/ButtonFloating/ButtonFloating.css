@@ -1,0 +1,21 @@
+.buttonFloat{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    bottom: 40px;
+    right: 40px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 999;
+    border: solid 0.1px rgb(150, 148, 148);
+}
+.IconWats{
+    font-size: 60px;
+    
+    
+}
+.IconWats:hover{
+    background-color: #37e978;
+}

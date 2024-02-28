@@ -1,0 +1,174 @@
+:root {
+  width: 100vw;
+  height: 100vh;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  
+
+
+  background-color: #242424;
+
+
+
+}
+
+a {
+  font-weight: 500;
+  color: #000000;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #80f253;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  background-color: rgb(214, 212, 212);
+  color:#000000;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+
+@media(max-width:1279px) {
+body{
+  height: 744px;
+}
+:root{
+  height: 100%;
+}
+header{
+  height: 100%;
+}
+.name{
+  display: flex;
+  text-align: center;
+}
+main{
+  height: 100%;
+}
+.SectionIco{
+  width: 25vw;
+}
+}
+@media(max-width:921px){
+  body {
+      height: 970px;
+    }
+}
+@media(max-width:768px){
+.MiFoto{
+  width: 133px;
+    height: 116px;
+}
+.name{
+ font-size: 16px;
+}
+.lineProfile {
+  width: 76px;
+  height: 4px;
+}
+.logoSena2 {
+  width: 40px;
+  height: 44px;
+}
+.titleProfile {
+  font-size: 19px;
+}
+.lineMain {
+  height: 4px;
+}
+.textDescription {
+  font-size: 10px;
+}
+.sectionM2 {
+  padding: 11px 17px 0;
+}
+.imgProjects{
+      width: 80px;
+        height: 47px;
+}
+.containerCard {
+width: 184px;
+  height: 64px;
+  margin: 3px 7px;
+}
+.divInfo,
+h3 {
+  font-size: 13px;
+}
+.description{
+  display: none;
+}
+ul li a {
+  
+  font-size: 16px;
+}
+.logoSena {
+  width: 116px;
+  height: 119px;
+}
+.containerReferenceCard{
+width: 114px;
+  height: 64px;
+  
+}
+.containerReferenceCard,
+p{
+  font-size: 10px;
+}
+.CardExperience{
+  margin: 0 12px;
+}
+.ImgCardExperience {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.Bar1 {
+  width: 72px;
+  height: 12px;
+}
+.Bar2 {
+  width: 40px;
+  height: 12px;
+}
+.Icon {
+  font-size: 18px;
+  margin: 0 3px;
+}
+body {
+  height: 917px;
+}
+}
+@media(max-width:480px){
+
+  body {
+      height: 1024px;
+    }
+
+.MiFoto {
+  width: 99px;
+  height: 89px;
+  margin: 0;
+}
+.buttonFloat {
+  position: fixed;
+  width: 45px;
+  height: 45px;
+}
+.IconWats {
+  font-size: 45px;
+}
+}

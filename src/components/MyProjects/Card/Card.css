@@ -1,0 +1,45 @@
+.imgProjects{
+    width: 104px;
+    height: 53px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+.containerCard{
+    width: 210px;
+    height: 78px;
+display: flex;
+background-color: #39a900;
+border-radius: 15px;
+margin: 3px 10px;
+}
+
+button {
+    border: none;
+background-color: #39a900;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+}
+.divInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.divInfo, h3, .description{
+    margin: 0;
+    color: white;
+    align-items: center;
+}
+.divInfo, h3 {
+    font-size: 13px;
+}
+.description{
+    margin: 0 0 5px;
+}
+.divImgProjects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

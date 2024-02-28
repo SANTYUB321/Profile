@@ -1,0 +1,26 @@
+.MiFoto {
+    border-radius: 50%;
+    width: 213px;
+    height: 213px;
+    
+}
+.name{
+    color: white;
+    margin: 0;
+    
+}
+.MiProfile{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0 0;
+
+}
+.lineProfile{
+    width: 200px;
+    height: 6px;
+    background-color: white;
+    border: none;
+    margin: 5px 0;
+}

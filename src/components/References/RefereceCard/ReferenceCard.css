@@ -1,0 +1,13 @@
+.containerReferenceCard{
+    width: 150px;
+    height: 80px;
+    border: solid;
+    
+}
+.containerReferenceCard, p{
+    margin:0 0 0 5px;
+    font-size: 12px;
+}
+.containerReferenceCard{
+margin: 5px 10px 5px;
+}

@@ -1,0 +1,26 @@
+.sectionM2 {
+    
+    height: auto;
+    padding: 11px 25px 0;
+
+
+}
+.DivProfile{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.titleProfile{
+    font-size: 25px;
+    margin: 0;
+}
+.lineMain{
+    height: 7px;
+    background-color: #c1ff95;
+    border: none;
+    margin: 5px 0 ;
+}
+.textDescription{
+    margin: 0;
+    font-size: 11px;
+}
